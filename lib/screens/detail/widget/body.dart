@@ -236,7 +236,8 @@ class _BodyDeState extends State<BodyDe> {
       height: height / 14,
       child: FadeAnimation(
         delay: 3,
-        child: Row(
+        child: ListView(
+          scrollDirection: Axis.horizontal,
           children: [
             Container(
               width: width / 4.5,
